@@ -25,7 +25,10 @@ __pycache__/
 *.p12
 *.pfx
 /.codex/
-/.claude/
+/.claude/*
+!/.claude/skills/
+!/.claude/settings.json
+/.claude/settings.local.json
 .hyperframes/
 /runtime/
 /releases/
